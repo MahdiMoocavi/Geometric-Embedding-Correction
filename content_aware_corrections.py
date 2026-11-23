@@ -43,7 +43,7 @@ to switch to unsupervised-derived groupings instead, or the circularity
 concern would be real for that metric specifically. It is not a defect in
 what is actually measured here.
 
-THE FOUR NEW CONDITIONS (methodology doc Conditions 4-7)
+THE FOUR NEW CONDITIONS (methodology doc Conditions 5-8)
 --------------------------------------------------------------
     5_domain_blanket      Center every item on its DOMAIN's mean instead of
                            the grand mean, and use that representation for
