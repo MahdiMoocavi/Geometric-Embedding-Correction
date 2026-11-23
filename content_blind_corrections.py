@@ -22,7 +22,7 @@ NOT sufficient on its own. That is not a null result -- it is the empirical
 argument for why file 3 exists, and the numbers below are the evidence for
 that argument, not just a rejected first attempt.
 
-THE FOUR CONDITIONS (methodology doc Conditions 1-3, plus mean-centering
+THE FOUR CONDITIONS (methodology doc Conditions 1-4; mean-centering
 promoted to its own condition rather than being folded silently into the
 others as just a preprocessing step)
 ------------------------------------------------------------------------
