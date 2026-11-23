@@ -1,0 +1,697 @@
+item_a,item_b,domain,facet_code,facet_name
+Trust others.,Distrust people.,A,A1,Trust
+Trust others.,Suspect hidden motives in others.,A,A1,Trust
+Trust others.,Am wary of others.,A,A1,Trust
+Trust others.,Believe that people are essentially evil.,A,A1,Trust
+Believe that others have good intentions.,Distrust people.,A,A1,Trust
+Believe that others have good intentions.,Suspect hidden motives in others.,A,A1,Trust
+Believe that others have good intentions.,Am wary of others.,A,A1,Trust
+Believe that others have good intentions.,Believe that people are essentially evil.,A,A1,Trust
+Trust what people say.,Distrust people.,A,A1,Trust
+Trust what people say.,Suspect hidden motives in others.,A,A1,Trust
+Trust what people say.,Am wary of others.,A,A1,Trust
+Trust what people say.,Believe that people are essentially evil.,A,A1,Trust
+Believe that people are basically moral.,Distrust people.,A,A1,Trust
+Believe that people are basically moral.,Suspect hidden motives in others.,A,A1,Trust
+Believe that people are basically moral.,Am wary of others.,A,A1,Trust
+Believe that people are basically moral.,Believe that people are essentially evil.,A,A1,Trust
+Believe in human goodness.,Distrust people.,A,A1,Trust
+Believe in human goodness.,Suspect hidden motives in others.,A,A1,Trust
+Believe in human goodness.,Am wary of others.,A,A1,Trust
+Believe in human goodness.,Believe that people are essentially evil.,A,A1,Trust
+Think that all will be well.,Distrust people.,A,A1,Trust
+Think that all will be well.,Suspect hidden motives in others.,A,A1,Trust
+Think that all will be well.,Am wary of others.,A,A1,Trust
+Think that all will be well.,Believe that people are essentially evil.,A,A1,Trust
+Would never cheat on my taxes.,Use flattery to get ahead.,A,A2,Morality
+Would never cheat on my taxes.,Use others for my own ends.,A,A2,Morality
+Would never cheat on my taxes.,Know how to get around the rules.,A,A2,Morality
+Would never cheat on my taxes.,Cheat to get ahead.,A,A2,Morality
+Would never cheat on my taxes.,Put people under pressure.,A,A2,Morality
+Would never cheat on my taxes.,Pretend to be concerned for others.,A,A2,Morality
+Would never cheat on my taxes.,Take advantage of others.,A,A2,Morality
+Would never cheat on my taxes.,Obstruct others' plans.,A,A2,Morality
+Stick to the rules.,Use flattery to get ahead.,A,A2,Morality
+Stick to the rules.,Use others for my own ends.,A,A2,Morality
+Stick to the rules.,Know how to get around the rules.,A,A2,Morality
+Stick to the rules.,Cheat to get ahead.,A,A2,Morality
+Stick to the rules.,Put people under pressure.,A,A2,Morality
+Stick to the rules.,Pretend to be concerned for others.,A,A2,Morality
+Stick to the rules.,Take advantage of others.,A,A2,Morality
+Stick to the rules.,Obstruct others' plans.,A,A2,Morality
+Make people feel welcome.,Look down on others.,A,A3,Altruism
+Make people feel welcome.,Am indifferent to the feelings of others.,A,A3,Altruism
+Make people feel welcome.,Make people feel uncomfortable.,A,A3,Altruism
+Make people feel welcome.,Turn my back on others.,A,A3,Altruism
+Make people feel welcome.,Take no time for others.,A,A3,Altruism
+Anticipate the needs of others.,Look down on others.,A,A3,Altruism
+Anticipate the needs of others.,Am indifferent to the feelings of others.,A,A3,Altruism
+Anticipate the needs of others.,Make people feel uncomfortable.,A,A3,Altruism
+Anticipate the needs of others.,Turn my back on others.,A,A3,Altruism
+Anticipate the needs of others.,Take no time for others.,A,A3,Altruism
+Love to help others.,Look down on others.,A,A3,Altruism
+Love to help others.,Am indifferent to the feelings of others.,A,A3,Altruism
+Love to help others.,Make people feel uncomfortable.,A,A3,Altruism
+Love to help others.,Turn my back on others.,A,A3,Altruism
+Love to help others.,Take no time for others.,A,A3,Altruism
+Am concerned about others.,Look down on others.,A,A3,Altruism
+Am concerned about others.,Am indifferent to the feelings of others.,A,A3,Altruism
+Am concerned about others.,Make people feel uncomfortable.,A,A3,Altruism
+Am concerned about others.,Turn my back on others.,A,A3,Altruism
+Am concerned about others.,Take no time for others.,A,A3,Altruism
+Have a good word for everyone.,Look down on others.,A,A3,Altruism
+Have a good word for everyone.,Am indifferent to the feelings of others.,A,A3,Altruism
+Have a good word for everyone.,Make people feel uncomfortable.,A,A3,Altruism
+Have a good word for everyone.,Turn my back on others.,A,A3,Altruism
+Have a good word for everyone.,Take no time for others.,A,A3,Altruism
+Am easy to satisfy.,Have a sharp tongue.,A,A4,Cooperation
+Am easy to satisfy.,Contradict others.,A,A4,Cooperation
+Am easy to satisfy.,Love a good fight.,A,A4,Cooperation
+Am easy to satisfy.,Yell at people.,A,A4,Cooperation
+Am easy to satisfy.,Insult people.,A,A4,Cooperation
+Am easy to satisfy.,Get back at others.,A,A4,Cooperation
+Am easy to satisfy.,Hold a grudge.,A,A4,Cooperation
+Can't stand confrontations.,Have a sharp tongue.,A,A4,Cooperation
+Can't stand confrontations.,Contradict others.,A,A4,Cooperation
+Can't stand confrontations.,Love a good fight.,A,A4,Cooperation
+Can't stand confrontations.,Yell at people.,A,A4,Cooperation
+Can't stand confrontations.,Insult people.,A,A4,Cooperation
+Can't stand confrontations.,Get back at others.,A,A4,Cooperation
+Can't stand confrontations.,Hold a grudge.,A,A4,Cooperation
+Hate to seem pushy.,Have a sharp tongue.,A,A4,Cooperation
+Hate to seem pushy.,Contradict others.,A,A4,Cooperation
+Hate to seem pushy.,Love a good fight.,A,A4,Cooperation
+Hate to seem pushy.,Yell at people.,A,A4,Cooperation
+Hate to seem pushy.,Insult people.,A,A4,Cooperation
+Hate to seem pushy.,Get back at others.,A,A4,Cooperation
+Hate to seem pushy.,Hold a grudge.,A,A4,Cooperation
+Dislike being the center of attention.,Believe that I am better than others.,A,A5,Modesty
+Dislike being the center of attention.,Think highly of myself.,A,A5,Modesty
+Dislike being the center of attention.,Have a high opinion of myself.,A,A5,Modesty
+Dislike being the center of attention.,Know the answers to many questions.,A,A5,Modesty
+Dislike being the center of attention.,Boast about my virtues.,A,A5,Modesty
+Dislike being the center of attention.,Make myself the center of attention.,A,A5,Modesty
+Dislike talking about myself.,Believe that I am better than others.,A,A5,Modesty
+Dislike talking about myself.,Think highly of myself.,A,A5,Modesty
+Dislike talking about myself.,Have a high opinion of myself.,A,A5,Modesty
+Dislike talking about myself.,Know the answers to many questions.,A,A5,Modesty
+Dislike talking about myself.,Boast about my virtues.,A,A5,Modesty
+Dislike talking about myself.,Make myself the center of attention.,A,A5,Modesty
+Consider myself an average person.,Believe that I am better than others.,A,A5,Modesty
+Consider myself an average person.,Think highly of myself.,A,A5,Modesty
+Consider myself an average person.,Have a high opinion of myself.,A,A5,Modesty
+Consider myself an average person.,Know the answers to many questions.,A,A5,Modesty
+Consider myself an average person.,Boast about my virtues.,A,A5,Modesty
+Consider myself an average person.,Make myself the center of attention.,A,A5,Modesty
+Seldom toot my own horn.,Believe that I am better than others.,A,A5,Modesty
+Seldom toot my own horn.,Think highly of myself.,A,A5,Modesty
+Seldom toot my own horn.,Have a high opinion of myself.,A,A5,Modesty
+Seldom toot my own horn.,Know the answers to many questions.,A,A5,Modesty
+Seldom toot my own horn.,Boast about my virtues.,A,A5,Modesty
+Seldom toot my own horn.,Make myself the center of attention.,A,A5,Modesty
+Sympathize with the homeless.,Am not interested in other people's problems.,A,A6,Sympathy
+Sympathize with the homeless.,Tend to dislike soft-hearted people.,A,A6,Sympathy
+Sympathize with the homeless.,Believe in an eye for an eye.,A,A6,Sympathy
+Sympathize with the homeless.,Try not to think about the needy.,A,A6,Sympathy
+Sympathize with the homeless.,Believe people should fend for themselves.,A,A6,Sympathy
+Sympathize with the homeless.,Can't stand weak people.,A,A6,Sympathy
+Feel sympathy for those who are worse off than myself.,Am not interested in other people's problems.,A,A6,Sympathy
+Feel sympathy for those who are worse off than myself.,Tend to dislike soft-hearted people.,A,A6,Sympathy
+Feel sympathy for those who are worse off than myself.,Believe in an eye for an eye.,A,A6,Sympathy
+Feel sympathy for those who are worse off than myself.,Try not to think about the needy.,A,A6,Sympathy
+Feel sympathy for those who are worse off than myself.,Believe people should fend for themselves.,A,A6,Sympathy
+Feel sympathy for those who are worse off than myself.,Can't stand weak people.,A,A6,Sympathy
+Value cooperation over competition.,Am not interested in other people's problems.,A,A6,Sympathy
+Value cooperation over competition.,Tend to dislike soft-hearted people.,A,A6,Sympathy
+Value cooperation over competition.,Believe in an eye for an eye.,A,A6,Sympathy
+Value cooperation over competition.,Try not to think about the needy.,A,A6,Sympathy
+Value cooperation over competition.,Believe people should fend for themselves.,A,A6,Sympathy
+Value cooperation over competition.,Can't stand weak people.,A,A6,Sympathy
+Suffer from others' sorrows.,Am not interested in other people's problems.,A,A6,Sympathy
+Suffer from others' sorrows.,Tend to dislike soft-hearted people.,A,A6,Sympathy
+Suffer from others' sorrows.,Believe in an eye for an eye.,A,A6,Sympathy
+Suffer from others' sorrows.,Try not to think about the needy.,A,A6,Sympathy
+Suffer from others' sorrows.,Believe people should fend for themselves.,A,A6,Sympathy
+Suffer from others' sorrows.,Can't stand weak people.,A,A6,Sympathy
+Complete tasks successfully.,Misjudge situations.,C,C1,Self-Efficacy
+Complete tasks successfully.,Don't understand things.,C,C1,Self-Efficacy
+Complete tasks successfully.,Have little to contribute.,C,C1,Self-Efficacy
+Complete tasks successfully.,Don't see the consequences of things.,C,C1,Self-Efficacy
+Excel in what I do.,Misjudge situations.,C,C1,Self-Efficacy
+Excel in what I do.,Don't understand things.,C,C1,Self-Efficacy
+Excel in what I do.,Have little to contribute.,C,C1,Self-Efficacy
+Excel in what I do.,Don't see the consequences of things.,C,C1,Self-Efficacy
+Handle tasks smoothly.,Misjudge situations.,C,C1,Self-Efficacy
+Handle tasks smoothly.,Don't understand things.,C,C1,Self-Efficacy
+Handle tasks smoothly.,Have little to contribute.,C,C1,Self-Efficacy
+Handle tasks smoothly.,Don't see the consequences of things.,C,C1,Self-Efficacy
+Am sure of my ground.,Misjudge situations.,C,C1,Self-Efficacy
+Am sure of my ground.,Don't understand things.,C,C1,Self-Efficacy
+Am sure of my ground.,Have little to contribute.,C,C1,Self-Efficacy
+Am sure of my ground.,Don't see the consequences of things.,C,C1,Self-Efficacy
+Come up with good solutions.,Misjudge situations.,C,C1,Self-Efficacy
+Come up with good solutions.,Don't understand things.,C,C1,Self-Efficacy
+Come up with good solutions.,Have little to contribute.,C,C1,Self-Efficacy
+Come up with good solutions.,Don't see the consequences of things.,C,C1,Self-Efficacy
+Know how to get things done.,Misjudge situations.,C,C1,Self-Efficacy
+Know how to get things done.,Don't understand things.,C,C1,Self-Efficacy
+Know how to get things done.,Have little to contribute.,C,C1,Self-Efficacy
+Know how to get things done.,Don't see the consequences of things.,C,C1,Self-Efficacy
+Like order.,Often forget to put things back in their proper place.,C,C2,Orderliness
+Like order.,Leave a mess in my room.,C,C2,Orderliness
+Like order.,Leave my belongings around.,C,C2,Orderliness
+Like order.,Am not bothered by messy people.,C,C2,Orderliness
+Like order.,Am not bothered by disorder.,C,C2,Orderliness
+Like to tidy up.,Often forget to put things back in their proper place.,C,C2,Orderliness
+Like to tidy up.,Leave a mess in my room.,C,C2,Orderliness
+Like to tidy up.,Leave my belongings around.,C,C2,Orderliness
+Like to tidy up.,Am not bothered by messy people.,C,C2,Orderliness
+Like to tidy up.,Am not bothered by disorder.,C,C2,Orderliness
+Want everything to be “just right.”,Often forget to put things back in their proper place.,C,C2,Orderliness
+Want everything to be “just right.”,Leave a mess in my room.,C,C2,Orderliness
+Want everything to be “just right.”,Leave my belongings around.,C,C2,Orderliness
+Want everything to be “just right.”,Am not bothered by messy people.,C,C2,Orderliness
+Want everything to be “just right.”,Am not bothered by disorder.,C,C2,Orderliness
+Love order and regularity.,Often forget to put things back in their proper place.,C,C2,Orderliness
+Love order and regularity.,Leave a mess in my room.,C,C2,Orderliness
+Love order and regularity.,Leave my belongings around.,C,C2,Orderliness
+Love order and regularity.,Am not bothered by messy people.,C,C2,Orderliness
+Love order and regularity.,Am not bothered by disorder.,C,C2,Orderliness
+Do things according to a plan.,Often forget to put things back in their proper place.,C,C2,Orderliness
+Do things according to a plan.,Leave a mess in my room.,C,C2,Orderliness
+Do things according to a plan.,Leave my belongings around.,C,C2,Orderliness
+Do things according to a plan.,Am not bothered by messy people.,C,C2,Orderliness
+Do things according to a plan.,Am not bothered by disorder.,C,C2,Orderliness
+Try to follow the rules.,Break rules.,C,C3,Dutifulness
+Try to follow the rules.,Break my promises.,C,C3,Dutifulness
+Try to follow the rules.,Get others to do my duties.,C,C3,Dutifulness
+Try to follow the rules.,Do the opposite of what is asked.,C,C3,Dutifulness
+Try to follow the rules.,Misrepresent the facts.,C,C3,Dutifulness
+Keep my promises.,Break rules.,C,C3,Dutifulness
+Keep my promises.,Break my promises.,C,C3,Dutifulness
+Keep my promises.,Get others to do my duties.,C,C3,Dutifulness
+Keep my promises.,Do the opposite of what is asked.,C,C3,Dutifulness
+Keep my promises.,Misrepresent the facts.,C,C3,Dutifulness
+Pay my bills on time.,Break rules.,C,C3,Dutifulness
+Pay my bills on time.,Break my promises.,C,C3,Dutifulness
+Pay my bills on time.,Get others to do my duties.,C,C3,Dutifulness
+Pay my bills on time.,Do the opposite of what is asked.,C,C3,Dutifulness
+Pay my bills on time.,Misrepresent the facts.,C,C3,Dutifulness
+Tell the truth.,Break rules.,C,C3,Dutifulness
+Tell the truth.,Break my promises.,C,C3,Dutifulness
+Tell the truth.,Get others to do my duties.,C,C3,Dutifulness
+Tell the truth.,Do the opposite of what is asked.,C,C3,Dutifulness
+Tell the truth.,Misrepresent the facts.,C,C3,Dutifulness
+Listen to my conscience.,Break rules.,C,C3,Dutifulness
+Listen to my conscience.,Break my promises.,C,C3,Dutifulness
+Listen to my conscience.,Get others to do my duties.,C,C3,Dutifulness
+Listen to my conscience.,Do the opposite of what is asked.,C,C3,Dutifulness
+Listen to my conscience.,Misrepresent the facts.,C,C3,Dutifulness
+Go straight for the goal.,Am not highly motivated to succeed.,C,C4,Achievement-Striving
+Go straight for the goal.,Do just enough work to get by.,C,C4,Achievement-Striving
+Go straight for the goal.,Put little time and effort into my work.,C,C4,Achievement-Striving
+Work hard.,Am not highly motivated to succeed.,C,C4,Achievement-Striving
+Work hard.,Do just enough work to get by.,C,C4,Achievement-Striving
+Work hard.,Put little time and effort into my work.,C,C4,Achievement-Striving
+Turn plans into actions.,Am not highly motivated to succeed.,C,C4,Achievement-Striving
+Turn plans into actions.,Do just enough work to get by.,C,C4,Achievement-Striving
+Turn plans into actions.,Put little time and effort into my work.,C,C4,Achievement-Striving
+Plunge into tasks with all my heart.,Am not highly motivated to succeed.,C,C4,Achievement-Striving
+Plunge into tasks with all my heart.,Do just enough work to get by.,C,C4,Achievement-Striving
+Plunge into tasks with all my heart.,Put little time and effort into my work.,C,C4,Achievement-Striving
+Do more than what's expected of me.,Am not highly motivated to succeed.,C,C4,Achievement-Striving
+Do more than what's expected of me.,Do just enough work to get by.,C,C4,Achievement-Striving
+Do more than what's expected of me.,Put little time and effort into my work.,C,C4,Achievement-Striving
+Set high standards for myself and others.,Am not highly motivated to succeed.,C,C4,Achievement-Striving
+Set high standards for myself and others.,Do just enough work to get by.,C,C4,Achievement-Striving
+Set high standards for myself and others.,Put little time and effort into my work.,C,C4,Achievement-Striving
+Demand quality.,Am not highly motivated to succeed.,C,C4,Achievement-Striving
+Demand quality.,Do just enough work to get by.,C,C4,Achievement-Striving
+Demand quality.,Put little time and effort into my work.,C,C4,Achievement-Striving
+Get chores done right away.,Find it difficult to get down to work.,C,C5,Self-Discipline
+Get chores done right away.,Waste my time.,C,C5,Self-Discipline
+Get chores done right away.,Need a push to get started.,C,C5,Self-Discipline
+Get chores done right away.,Have difficulty starting tasks.,C,C5,Self-Discipline
+Get chores done right away.,Postpone decisions.,C,C5,Self-Discipline
+Am always prepared.,Find it difficult to get down to work.,C,C5,Self-Discipline
+Am always prepared.,Waste my time.,C,C5,Self-Discipline
+Am always prepared.,Need a push to get started.,C,C5,Self-Discipline
+Am always prepared.,Have difficulty starting tasks.,C,C5,Self-Discipline
+Am always prepared.,Postpone decisions.,C,C5,Self-Discipline
+Start tasks right away.,Find it difficult to get down to work.,C,C5,Self-Discipline
+Start tasks right away.,Waste my time.,C,C5,Self-Discipline
+Start tasks right away.,Need a push to get started.,C,C5,Self-Discipline
+Start tasks right away.,Have difficulty starting tasks.,C,C5,Self-Discipline
+Start tasks right away.,Postpone decisions.,C,C5,Self-Discipline
+Get to work at once.,Find it difficult to get down to work.,C,C5,Self-Discipline
+Get to work at once.,Waste my time.,C,C5,Self-Discipline
+Get to work at once.,Need a push to get started.,C,C5,Self-Discipline
+Get to work at once.,Have difficulty starting tasks.,C,C5,Self-Discipline
+Get to work at once.,Postpone decisions.,C,C5,Self-Discipline
+Carry out my plans.,Find it difficult to get down to work.,C,C5,Self-Discipline
+Carry out my plans.,Waste my time.,C,C5,Self-Discipline
+Carry out my plans.,Need a push to get started.,C,C5,Self-Discipline
+Carry out my plans.,Have difficulty starting tasks.,C,C5,Self-Discipline
+Carry out my plans.,Postpone decisions.,C,C5,Self-Discipline
+Avoid mistakes.,Jump into things without thinking.,C,C6,Cautiousness
+Avoid mistakes.,Make rash decisions.,C,C6,Cautiousness
+Avoid mistakes.,Like to act on a whim.,C,C6,Cautiousness
+Avoid mistakes.,Rush into things.,C,C6,Cautiousness
+Avoid mistakes.,Do crazy things.,C,C6,Cautiousness
+Avoid mistakes.,Act without thinking.,C,C6,Cautiousness
+Avoid mistakes.,Often make last-minute plans.,C,C6,Cautiousness
+Choose my words with care.,Jump into things without thinking.,C,C6,Cautiousness
+Choose my words with care.,Make rash decisions.,C,C6,Cautiousness
+Choose my words with care.,Like to act on a whim.,C,C6,Cautiousness
+Choose my words with care.,Rush into things.,C,C6,Cautiousness
+Choose my words with care.,Do crazy things.,C,C6,Cautiousness
+Choose my words with care.,Act without thinking.,C,C6,Cautiousness
+Choose my words with care.,Often make last-minute plans.,C,C6,Cautiousness
+Stick to my chosen path.,Jump into things without thinking.,C,C6,Cautiousness
+Stick to my chosen path.,Make rash decisions.,C,C6,Cautiousness
+Stick to my chosen path.,Like to act on a whim.,C,C6,Cautiousness
+Stick to my chosen path.,Rush into things.,C,C6,Cautiousness
+Stick to my chosen path.,Do crazy things.,C,C6,Cautiousness
+Stick to my chosen path.,Act without thinking.,C,C6,Cautiousness
+Stick to my chosen path.,Often make last-minute plans.,C,C6,Cautiousness
+Make friends easily.,Am hard to get to know.,E,E1,Friendliness
+Make friends easily.,Often feel uncomfortable around others.,E,E1,Friendliness
+Make friends easily.,Avoid contacts with others.,E,E1,Friendliness
+Make friends easily.,Am not really interested in others.,E,E1,Friendliness
+Make friends easily.,Keep others at a distance.,E,E1,Friendliness
+Warm up quickly to others.,Am hard to get to know.,E,E1,Friendliness
+Warm up quickly to others.,Often feel uncomfortable around others.,E,E1,Friendliness
+Warm up quickly to others.,Avoid contacts with others.,E,E1,Friendliness
+Warm up quickly to others.,Am not really interested in others.,E,E1,Friendliness
+Warm up quickly to others.,Keep others at a distance.,E,E1,Friendliness
+Feel comfortable around people.,Am hard to get to know.,E,E1,Friendliness
+Feel comfortable around people.,Often feel uncomfortable around others.,E,E1,Friendliness
+Feel comfortable around people.,Avoid contacts with others.,E,E1,Friendliness
+Feel comfortable around people.,Am not really interested in others.,E,E1,Friendliness
+Feel comfortable around people.,Keep others at a distance.,E,E1,Friendliness
+Act comfortably with others.,Am hard to get to know.,E,E1,Friendliness
+Act comfortably with others.,Often feel uncomfortable around others.,E,E1,Friendliness
+Act comfortably with others.,Avoid contacts with others.,E,E1,Friendliness
+Act comfortably with others.,Am not really interested in others.,E,E1,Friendliness
+Act comfortably with others.,Keep others at a distance.,E,E1,Friendliness
+Cheer people up.,Am hard to get to know.,E,E1,Friendliness
+Cheer people up.,Often feel uncomfortable around others.,E,E1,Friendliness
+Cheer people up.,Avoid contacts with others.,E,E1,Friendliness
+Cheer people up.,Am not really interested in others.,E,E1,Friendliness
+Cheer people up.,Keep others at a distance.,E,E1,Friendliness
+Love large parties.,Prefer to be alone.,E,E2,Gregariousness
+Love large parties.,Want to be left alone.,E,E2,Gregariousness
+Love large parties.,Don't like crowded events.,E,E2,Gregariousness
+Love large parties.,Avoid crowds.,E,E2,Gregariousness
+Love large parties.,Seek quiet.,E,E2,Gregariousness
+Talk to a lot of different people at parties.,Prefer to be alone.,E,E2,Gregariousness
+Talk to a lot of different people at parties.,Want to be left alone.,E,E2,Gregariousness
+Talk to a lot of different people at parties.,Don't like crowded events.,E,E2,Gregariousness
+Talk to a lot of different people at parties.,Avoid crowds.,E,E2,Gregariousness
+Talk to a lot of different people at parties.,Seek quiet.,E,E2,Gregariousness
+Enjoy being part of a group.,Prefer to be alone.,E,E2,Gregariousness
+Enjoy being part of a group.,Want to be left alone.,E,E2,Gregariousness
+Enjoy being part of a group.,Don't like crowded events.,E,E2,Gregariousness
+Enjoy being part of a group.,Avoid crowds.,E,E2,Gregariousness
+Enjoy being part of a group.,Seek quiet.,E,E2,Gregariousness
+Involve others in what I am doing.,Prefer to be alone.,E,E2,Gregariousness
+Involve others in what I am doing.,Want to be left alone.,E,E2,Gregariousness
+Involve others in what I am doing.,Don't like crowded events.,E,E2,Gregariousness
+Involve others in what I am doing.,Avoid crowds.,E,E2,Gregariousness
+Involve others in what I am doing.,Seek quiet.,E,E2,Gregariousness
+Love surprise parties.,Prefer to be alone.,E,E2,Gregariousness
+Love surprise parties.,Want to be left alone.,E,E2,Gregariousness
+Love surprise parties.,Don't like crowded events.,E,E2,Gregariousness
+Love surprise parties.,Avoid crowds.,E,E2,Gregariousness
+Love surprise parties.,Seek quiet.,E,E2,Gregariousness
+Take charge.,Wait for others to lead the way.,E,E3,Assertiveness
+Take charge.,Keep in the background.,E,E3,Assertiveness
+Take charge.,Have little to say.,E,E3,Assertiveness
+Take charge.,Don't like to draw attention to myself.,E,E3,Assertiveness
+Take charge.,Hold back my opinions.,E,E3,Assertiveness
+Try to lead others.,Wait for others to lead the way.,E,E3,Assertiveness
+Try to lead others.,Keep in the background.,E,E3,Assertiveness
+Try to lead others.,Have little to say.,E,E3,Assertiveness
+Try to lead others.,Don't like to draw attention to myself.,E,E3,Assertiveness
+Try to lead others.,Hold back my opinions.,E,E3,Assertiveness
+Can talk others into doing things.,Wait for others to lead the way.,E,E3,Assertiveness
+Can talk others into doing things.,Keep in the background.,E,E3,Assertiveness
+Can talk others into doing things.,Have little to say.,E,E3,Assertiveness
+Can talk others into doing things.,Don't like to draw attention to myself.,E,E3,Assertiveness
+Can talk others into doing things.,Hold back my opinions.,E,E3,Assertiveness
+Seek to influence others.,Wait for others to lead the way.,E,E3,Assertiveness
+Seek to influence others.,Keep in the background.,E,E3,Assertiveness
+Seek to influence others.,Have little to say.,E,E3,Assertiveness
+Seek to influence others.,Don't like to draw attention to myself.,E,E3,Assertiveness
+Seek to influence others.,Hold back my opinions.,E,E3,Assertiveness
+Take control of things.,Wait for others to lead the way.,E,E3,Assertiveness
+Take control of things.,Keep in the background.,E,E3,Assertiveness
+Take control of things.,Have little to say.,E,E3,Assertiveness
+Take control of things.,Don't like to draw attention to myself.,E,E3,Assertiveness
+Take control of things.,Hold back my opinions.,E,E3,Assertiveness
+Am always busy.,Like to take it easy.,E,E4,Activity Level
+Am always busy.,Like to take my time.,E,E4,Activity Level
+Am always busy.,Like a leisurely lifestyle.,E,E4,Activity Level
+Am always busy.,Let things proceed at their own pace.,E,E4,Activity Level
+Am always busy.,React slowly.,E,E4,Activity Level
+Am always on the go.,Like to take it easy.,E,E4,Activity Level
+Am always on the go.,Like to take my time.,E,E4,Activity Level
+Am always on the go.,Like a leisurely lifestyle.,E,E4,Activity Level
+Am always on the go.,Let things proceed at their own pace.,E,E4,Activity Level
+Am always on the go.,React slowly.,E,E4,Activity Level
+Do a lot in my spare time.,Like to take it easy.,E,E4,Activity Level
+Do a lot in my spare time.,Like to take my time.,E,E4,Activity Level
+Do a lot in my spare time.,Like a leisurely lifestyle.,E,E4,Activity Level
+Do a lot in my spare time.,Let things proceed at their own pace.,E,E4,Activity Level
+Do a lot in my spare time.,React slowly.,E,E4,Activity Level
+Can manage many things at the same time.,Like to take it easy.,E,E4,Activity Level
+Can manage many things at the same time.,Like to take my time.,E,E4,Activity Level
+Can manage many things at the same time.,Like a leisurely lifestyle.,E,E4,Activity Level
+Can manage many things at the same time.,Let things proceed at their own pace.,E,E4,Activity Level
+Can manage many things at the same time.,React slowly.,E,E4,Activity Level
+React quickly.,Like to take it easy.,E,E4,Activity Level
+React quickly.,Like to take my time.,E,E4,Activity Level
+React quickly.,Like a leisurely lifestyle.,E,E4,Activity Level
+React quickly.,Let things proceed at their own pace.,E,E4,Activity Level
+React quickly.,React slowly.,E,E4,Activity Level
+Love excitement.,Would never go hang gliding or bungee jumping.,E,E5,Excitement-Seeking
+Love excitement.,Dislike loud music.,E,E5,Excitement-Seeking
+Seek adventure.,Would never go hang gliding or bungee jumping.,E,E5,Excitement-Seeking
+Seek adventure.,Dislike loud music.,E,E5,Excitement-Seeking
+Love action.,Would never go hang gliding or bungee jumping.,E,E5,Excitement-Seeking
+Love action.,Dislike loud music.,E,E5,Excitement-Seeking
+Enjoy being part of a loud crowd.,Would never go hang gliding or bungee jumping.,E,E5,Excitement-Seeking
+Enjoy being part of a loud crowd.,Dislike loud music.,E,E5,Excitement-Seeking
+Enjoy being reckless.,Would never go hang gliding or bungee jumping.,E,E5,Excitement-Seeking
+Enjoy being reckless.,Dislike loud music.,E,E5,Excitement-Seeking
+Act wild and crazy.,Would never go hang gliding or bungee jumping.,E,E5,Excitement-Seeking
+Act wild and crazy.,Dislike loud music.,E,E5,Excitement-Seeking
+Willing to try anything once.,Would never go hang gliding or bungee jumping.,E,E5,Excitement-Seeking
+Willing to try anything once.,Dislike loud music.,E,E5,Excitement-Seeking
+Seek danger.,Would never go hang gliding or bungee jumping.,E,E5,Excitement-Seeking
+Seek danger.,Dislike loud music.,E,E5,Excitement-Seeking
+Radiate joy.,Am not easily amused.,E,E6,Cheerfulness
+Radiate joy.,Seldom joke around.,E,E6,Cheerfulness
+Have a lot of fun.,Am not easily amused.,E,E6,Cheerfulness
+Have a lot of fun.,Seldom joke around.,E,E6,Cheerfulness
+Express childlike joy.,Am not easily amused.,E,E6,Cheerfulness
+Express childlike joy.,Seldom joke around.,E,E6,Cheerfulness
+Laugh my way through life.,Am not easily amused.,E,E6,Cheerfulness
+Laugh my way through life.,Seldom joke around.,E,E6,Cheerfulness
+Love life.,Am not easily amused.,E,E6,Cheerfulness
+Love life.,Seldom joke around.,E,E6,Cheerfulness
+Look at the bright side of life.,Am not easily amused.,E,E6,Cheerfulness
+Look at the bright side of life.,Seldom joke around.,E,E6,Cheerfulness
+Laugh aloud.,Am not easily amused.,E,E6,Cheerfulness
+Laugh aloud.,Seldom joke around.,E,E6,Cheerfulness
+Amuse my friends.,Am not easily amused.,E,E6,Cheerfulness
+Amuse my friends.,Seldom joke around.,E,E6,Cheerfulness
+Worry about things.,Am not easily bothered by things.,N,N1,Anxiety
+Worry about things.,Am relaxed most of the time.,N,N1,Anxiety
+Worry about things.,Am not easily disturbed by events.,N,N1,Anxiety
+Worry about things.,Don't worry about things that have already happened.,N,N1,Anxiety
+Worry about things.,Adapt easily to new situations.,N,N1,Anxiety
+Fear for the worst.,Am not easily bothered by things.,N,N1,Anxiety
+Fear for the worst.,Am relaxed most of the time.,N,N1,Anxiety
+Fear for the worst.,Am not easily disturbed by events.,N,N1,Anxiety
+Fear for the worst.,Don't worry about things that have already happened.,N,N1,Anxiety
+Fear for the worst.,Adapt easily to new situations.,N,N1,Anxiety
+Am afraid of many things.,Am not easily bothered by things.,N,N1,Anxiety
+Am afraid of many things.,Am relaxed most of the time.,N,N1,Anxiety
+Am afraid of many things.,Am not easily disturbed by events.,N,N1,Anxiety
+Am afraid of many things.,Don't worry about things that have already happened.,N,N1,Anxiety
+Am afraid of many things.,Adapt easily to new situations.,N,N1,Anxiety
+Get stressed out easily.,Am not easily bothered by things.,N,N1,Anxiety
+Get stressed out easily.,Am relaxed most of the time.,N,N1,Anxiety
+Get stressed out easily.,Am not easily disturbed by events.,N,N1,Anxiety
+Get stressed out easily.,Don't worry about things that have already happened.,N,N1,Anxiety
+Get stressed out easily.,Adapt easily to new situations.,N,N1,Anxiety
+Get caught up in my problems.,Am not easily bothered by things.,N,N1,Anxiety
+Get caught up in my problems.,Am relaxed most of the time.,N,N1,Anxiety
+Get caught up in my problems.,Am not easily disturbed by events.,N,N1,Anxiety
+Get caught up in my problems.,Don't worry about things that have already happened.,N,N1,Anxiety
+Get caught up in my problems.,Adapt easily to new situations.,N,N1,Anxiety
+Get angry easily.,Rarely get irritated.,N,N2,Anger
+Get angry easily.,Seldom get mad.,N,N2,Anger
+Get angry easily.,Am not easily annoyed.,N,N2,Anger
+Get angry easily.,Keep my cool.,N,N2,Anger
+Get angry easily.,Rarely complain.,N,N2,Anger
+Get irritated easily.,Rarely get irritated.,N,N2,Anger
+Get irritated easily.,Seldom get mad.,N,N2,Anger
+Get irritated easily.,Am not easily annoyed.,N,N2,Anger
+Get irritated easily.,Keep my cool.,N,N2,Anger
+Get irritated easily.,Rarely complain.,N,N2,Anger
+Get upset easily.,Rarely get irritated.,N,N2,Anger
+Get upset easily.,Seldom get mad.,N,N2,Anger
+Get upset easily.,Am not easily annoyed.,N,N2,Anger
+Get upset easily.,Keep my cool.,N,N2,Anger
+Get upset easily.,Rarely complain.,N,N2,Anger
+Am often in a bad mood.,Rarely get irritated.,N,N2,Anger
+Am often in a bad mood.,Seldom get mad.,N,N2,Anger
+Am often in a bad mood.,Am not easily annoyed.,N,N2,Anger
+Am often in a bad mood.,Keep my cool.,N,N2,Anger
+Am often in a bad mood.,Rarely complain.,N,N2,Anger
+Lose my temper.,Rarely get irritated.,N,N2,Anger
+Lose my temper.,Seldom get mad.,N,N2,Anger
+Lose my temper.,Am not easily annoyed.,N,N2,Anger
+Lose my temper.,Keep my cool.,N,N2,Anger
+Lose my temper.,Rarely complain.,N,N2,Anger
+Often feel blue.,Seldom feel blue.,N,N3,Depression
+Often feel blue.,Feel comfortable with myself.,N,N3,Depression
+Often feel blue.,Am very pleased with myself.,N,N3,Depression
+Dislike myself.,Seldom feel blue.,N,N3,Depression
+Dislike myself.,Feel comfortable with myself.,N,N3,Depression
+Dislike myself.,Am very pleased with myself.,N,N3,Depression
+Am often down in the dumps.,Seldom feel blue.,N,N3,Depression
+Am often down in the dumps.,Feel comfortable with myself.,N,N3,Depression
+Am often down in the dumps.,Am very pleased with myself.,N,N3,Depression
+Have a low opinion of myself.,Seldom feel blue.,N,N3,Depression
+Have a low opinion of myself.,Feel comfortable with myself.,N,N3,Depression
+Have a low opinion of myself.,Am very pleased with myself.,N,N3,Depression
+Have frequent mood swings.,Seldom feel blue.,N,N3,Depression
+Have frequent mood swings.,Feel comfortable with myself.,N,N3,Depression
+Have frequent mood swings.,Am very pleased with myself.,N,N3,Depression
+Feel desperate.,Seldom feel blue.,N,N3,Depression
+Feel desperate.,Feel comfortable with myself.,N,N3,Depression
+Feel desperate.,Am very pleased with myself.,N,N3,Depression
+Feel that my life lacks direction.,Seldom feel blue.,N,N3,Depression
+Feel that my life lacks direction.,Feel comfortable with myself.,N,N3,Depression
+Feel that my life lacks direction.,Am very pleased with myself.,N,N3,Depression
+Am easily intimidated.,Am not embarrassed easily.,N,N4,Self-Consciousness
+Am easily intimidated.,Am comfortable in unfamiliar situations.,N,N4,Self-Consciousness
+Am easily intimidated.,Am not bothered by difficult social situations.,N,N4,Self-Consciousness
+Am easily intimidated.,Am able to stand up for myself.,N,N4,Self-Consciousness
+Am afraid that I will do the wrong thing.,Am not embarrassed easily.,N,N4,Self-Consciousness
+Am afraid that I will do the wrong thing.,Am comfortable in unfamiliar situations.,N,N4,Self-Consciousness
+Am afraid that I will do the wrong thing.,Am not bothered by difficult social situations.,N,N4,Self-Consciousness
+Am afraid that I will do the wrong thing.,Am able to stand up for myself.,N,N4,Self-Consciousness
+Find it difficult to approach others.,Am not embarrassed easily.,N,N4,Self-Consciousness
+Find it difficult to approach others.,Am comfortable in unfamiliar situations.,N,N4,Self-Consciousness
+Find it difficult to approach others.,Am not bothered by difficult social situations.,N,N4,Self-Consciousness
+Find it difficult to approach others.,Am able to stand up for myself.,N,N4,Self-Consciousness
+Am afraid to draw attention to myself.,Am not embarrassed easily.,N,N4,Self-Consciousness
+Am afraid to draw attention to myself.,Am comfortable in unfamiliar situations.,N,N4,Self-Consciousness
+Am afraid to draw attention to myself.,Am not bothered by difficult social situations.,N,N4,Self-Consciousness
+Am afraid to draw attention to myself.,Am able to stand up for myself.,N,N4,Self-Consciousness
+Only feel comfortable with friends.,Am not embarrassed easily.,N,N4,Self-Consciousness
+Only feel comfortable with friends.,Am comfortable in unfamiliar situations.,N,N4,Self-Consciousness
+Only feel comfortable with friends.,Am not bothered by difficult social situations.,N,N4,Self-Consciousness
+Only feel comfortable with friends.,Am able to stand up for myself.,N,N4,Self-Consciousness
+Stumble over my words.,Am not embarrassed easily.,N,N4,Self-Consciousness
+Stumble over my words.,Am comfortable in unfamiliar situations.,N,N4,Self-Consciousness
+Stumble over my words.,Am not bothered by difficult social situations.,N,N4,Self-Consciousness
+Stumble over my words.,Am able to stand up for myself.,N,N4,Self-Consciousness
+Often eat too much.,Rarely overindulge.,N,N5,Immoderation
+Often eat too much.,Easily resist temptations.,N,N5,Immoderation
+Often eat too much.,Am able to control my cravings.,N,N5,Immoderation
+Often eat too much.,Never spend more than I can afford.,N,N5,Immoderation
+Often eat too much.,Never splurge.,N,N5,Immoderation
+Don't know why I do some of the things I do.,Rarely overindulge.,N,N5,Immoderation
+Don't know why I do some of the things I do.,Easily resist temptations.,N,N5,Immoderation
+Don't know why I do some of the things I do.,Am able to control my cravings.,N,N5,Immoderation
+Don't know why I do some of the things I do.,Never spend more than I can afford.,N,N5,Immoderation
+Don't know why I do some of the things I do.,Never splurge.,N,N5,Immoderation
+Do things I later regret.,Rarely overindulge.,N,N5,Immoderation
+Do things I later regret.,Easily resist temptations.,N,N5,Immoderation
+Do things I later regret.,Am able to control my cravings.,N,N5,Immoderation
+Do things I later regret.,Never spend more than I can afford.,N,N5,Immoderation
+Do things I later regret.,Never splurge.,N,N5,Immoderation
+Go on binges.,Rarely overindulge.,N,N5,Immoderation
+Go on binges.,Easily resist temptations.,N,N5,Immoderation
+Go on binges.,Am able to control my cravings.,N,N5,Immoderation
+Go on binges.,Never spend more than I can afford.,N,N5,Immoderation
+Go on binges.,Never splurge.,N,N5,Immoderation
+Love to eat.,Rarely overindulge.,N,N5,Immoderation
+Love to eat.,Easily resist temptations.,N,N5,Immoderation
+Love to eat.,Am able to control my cravings.,N,N5,Immoderation
+Love to eat.,Never spend more than I can afford.,N,N5,Immoderation
+Love to eat.,Never splurge.,N,N5,Immoderation
+Panic easily.,Remain calm under pressure.,N,N6,Vulnerability
+Panic easily.,Can handle complex problems.,N,N6,Vulnerability
+Panic easily.,Know how to cope.,N,N6,Vulnerability
+Panic easily.,Readily overcome setbacks.,N,N6,Vulnerability
+Panic easily.,Am calm even in tense situations.,N,N6,Vulnerability
+Become overwhelmed by events.,Remain calm under pressure.,N,N6,Vulnerability
+Become overwhelmed by events.,Can handle complex problems.,N,N6,Vulnerability
+Become overwhelmed by events.,Know how to cope.,N,N6,Vulnerability
+Become overwhelmed by events.,Readily overcome setbacks.,N,N6,Vulnerability
+Become overwhelmed by events.,Am calm even in tense situations.,N,N6,Vulnerability
+Feel that I'm unable to deal with things.,Remain calm under pressure.,N,N6,Vulnerability
+Feel that I'm unable to deal with things.,Can handle complex problems.,N,N6,Vulnerability
+Feel that I'm unable to deal with things.,Know how to cope.,N,N6,Vulnerability
+Feel that I'm unable to deal with things.,Readily overcome setbacks.,N,N6,Vulnerability
+Feel that I'm unable to deal with things.,Am calm even in tense situations.,N,N6,Vulnerability
+Can't make up my mind.,Remain calm under pressure.,N,N6,Vulnerability
+Can't make up my mind.,Can handle complex problems.,N,N6,Vulnerability
+Can't make up my mind.,Know how to cope.,N,N6,Vulnerability
+Can't make up my mind.,Readily overcome setbacks.,N,N6,Vulnerability
+Can't make up my mind.,Am calm even in tense situations.,N,N6,Vulnerability
+Get overwhelmed by emotions.,Remain calm under pressure.,N,N6,Vulnerability
+Get overwhelmed by emotions.,Can handle complex problems.,N,N6,Vulnerability
+Get overwhelmed by emotions.,Know how to cope.,N,N6,Vulnerability
+Get overwhelmed by emotions.,Readily overcome setbacks.,N,N6,Vulnerability
+Get overwhelmed by emotions.,Am calm even in tense situations.,N,N6,Vulnerability
+Have a vivid imagination.,Seldom daydream.,O,O1,Imagination
+Have a vivid imagination.,Do not have a good imagination.,O,O1,Imagination
+Have a vivid imagination.,Seldom get lost in thought.,O,O1,Imagination
+Have a vivid imagination.,Have difficulty imagining things.,O,O1,Imagination
+Enjoy wild flights of fantasy.,Seldom daydream.,O,O1,Imagination
+Enjoy wild flights of fantasy.,Do not have a good imagination.,O,O1,Imagination
+Enjoy wild flights of fantasy.,Seldom get lost in thought.,O,O1,Imagination
+Enjoy wild flights of fantasy.,Have difficulty imagining things.,O,O1,Imagination
+Love to daydream.,Seldom daydream.,O,O1,Imagination
+Love to daydream.,Do not have a good imagination.,O,O1,Imagination
+Love to daydream.,Seldom get lost in thought.,O,O1,Imagination
+Love to daydream.,Have difficulty imagining things.,O,O1,Imagination
+Like to get lost in thought.,Seldom daydream.,O,O1,Imagination
+Like to get lost in thought.,Do not have a good imagination.,O,O1,Imagination
+Like to get lost in thought.,Seldom get lost in thought.,O,O1,Imagination
+Like to get lost in thought.,Have difficulty imagining things.,O,O1,Imagination
+Indulge in my fantasies.,Seldom daydream.,O,O1,Imagination
+Indulge in my fantasies.,Do not have a good imagination.,O,O1,Imagination
+Indulge in my fantasies.,Seldom get lost in thought.,O,O1,Imagination
+Indulge in my fantasies.,Have difficulty imagining things.,O,O1,Imagination
+Spend time reflecting on things.,Seldom daydream.,O,O1,Imagination
+Spend time reflecting on things.,Do not have a good imagination.,O,O1,Imagination
+Spend time reflecting on things.,Seldom get lost in thought.,O,O1,Imagination
+Spend time reflecting on things.,Have difficulty imagining things.,O,O1,Imagination
+Believe in the importance of art.,Do not like art.,O,O2,Artistic Interests
+Believe in the importance of art.,Do not like poetry.,O,O2,Artistic Interests
+Believe in the importance of art.,Do not enjoy going to art museums.,O,O2,Artistic Interests
+Believe in the importance of art.,Do not like concerts.,O,O2,Artistic Interests
+Believe in the importance of art.,Do not enjoy watching dance performances.,O,O2,Artistic Interests
+Like music.,Do not like art.,O,O2,Artistic Interests
+Like music.,Do not like poetry.,O,O2,Artistic Interests
+Like music.,Do not enjoy going to art museums.,O,O2,Artistic Interests
+Like music.,Do not like concerts.,O,O2,Artistic Interests
+Like music.,Do not enjoy watching dance performances.,O,O2,Artistic Interests
+See beauty in things that others might not notice.,Do not like art.,O,O2,Artistic Interests
+See beauty in things that others might not notice.,Do not like poetry.,O,O2,Artistic Interests
+See beauty in things that others might not notice.,Do not enjoy going to art museums.,O,O2,Artistic Interests
+See beauty in things that others might not notice.,Do not like concerts.,O,O2,Artistic Interests
+See beauty in things that others might not notice.,Do not enjoy watching dance performances.,O,O2,Artistic Interests
+Love flowers.,Do not like art.,O,O2,Artistic Interests
+Love flowers.,Do not like poetry.,O,O2,Artistic Interests
+Love flowers.,Do not enjoy going to art museums.,O,O2,Artistic Interests
+Love flowers.,Do not like concerts.,O,O2,Artistic Interests
+Love flowers.,Do not enjoy watching dance performances.,O,O2,Artistic Interests
+Enjoy the beauty of nature.,Do not like art.,O,O2,Artistic Interests
+Enjoy the beauty of nature.,Do not like poetry.,O,O2,Artistic Interests
+Enjoy the beauty of nature.,Do not enjoy going to art museums.,O,O2,Artistic Interests
+Enjoy the beauty of nature.,Do not like concerts.,O,O2,Artistic Interests
+Enjoy the beauty of nature.,Do not enjoy watching dance performances.,O,O2,Artistic Interests
+Experience my emotions intensely.,Seldom get emotional.,O,O3,Emotionality
+Experience my emotions intensely.,Am not easily affected by my emotions.,O,O3,Emotionality
+Experience my emotions intensely.,Rarely notice my emotional reactions.,O,O3,Emotionality
+Experience my emotions intensely.,Experience very few emotional highs and lows.,O,O3,Emotionality
+Experience my emotions intensely.,Don't understand people who get emotional.,O,O3,Emotionality
+Feel others' emotions.,Seldom get emotional.,O,O3,Emotionality
+Feel others' emotions.,Am not easily affected by my emotions.,O,O3,Emotionality
+Feel others' emotions.,Rarely notice my emotional reactions.,O,O3,Emotionality
+Feel others' emotions.,Experience very few emotional highs and lows.,O,O3,Emotionality
+Feel others' emotions.,Don't understand people who get emotional.,O,O3,Emotionality
+Am passionate about causes.,Seldom get emotional.,O,O3,Emotionality
+Am passionate about causes.,Am not easily affected by my emotions.,O,O3,Emotionality
+Am passionate about causes.,Rarely notice my emotional reactions.,O,O3,Emotionality
+Am passionate about causes.,Experience very few emotional highs and lows.,O,O3,Emotionality
+Am passionate about causes.,Don't understand people who get emotional.,O,O3,Emotionality
+Enjoy examining myself and my life.,Seldom get emotional.,O,O3,Emotionality
+Enjoy examining myself and my life.,Am not easily affected by my emotions.,O,O3,Emotionality
+Enjoy examining myself and my life.,Rarely notice my emotional reactions.,O,O3,Emotionality
+Enjoy examining myself and my life.,Experience very few emotional highs and lows.,O,O3,Emotionality
+Enjoy examining myself and my life.,Don't understand people who get emotional.,O,O3,Emotionality
+Try to understand myself.,Seldom get emotional.,O,O3,Emotionality
+Try to understand myself.,Am not easily affected by my emotions.,O,O3,Emotionality
+Try to understand myself.,Rarely notice my emotional reactions.,O,O3,Emotionality
+Try to understand myself.,Experience very few emotional highs and lows.,O,O3,Emotionality
+Try to understand myself.,Don't understand people who get emotional.,O,O3,Emotionality
+Prefer variety to routine.,Prefer to stick with things that I know.,O,O4,Adventurousness
+Prefer variety to routine.,Dislike changes.,O,O4,Adventurousness
+Prefer variety to routine.,Don't like the idea of change.,O,O4,Adventurousness
+Prefer variety to routine.,Am a creature of habit.,O,O4,Adventurousness
+Prefer variety to routine.,Dislike new foods.,O,O4,Adventurousness
+Prefer variety to routine.,Am attached to conventional ways.,O,O4,Adventurousness
+Like to visit new places.,Prefer to stick with things that I know.,O,O4,Adventurousness
+Like to visit new places.,Dislike changes.,O,O4,Adventurousness
+Like to visit new places.,Don't like the idea of change.,O,O4,Adventurousness
+Like to visit new places.,Am a creature of habit.,O,O4,Adventurousness
+Like to visit new places.,Dislike new foods.,O,O4,Adventurousness
+Like to visit new places.,Am attached to conventional ways.,O,O4,Adventurousness
+Interested in many things.,Prefer to stick with things that I know.,O,O4,Adventurousness
+Interested in many things.,Dislike changes.,O,O4,Adventurousness
+Interested in many things.,Don't like the idea of change.,O,O4,Adventurousness
+Interested in many things.,Am a creature of habit.,O,O4,Adventurousness
+Interested in many things.,Dislike new foods.,O,O4,Adventurousness
+Interested in many things.,Am attached to conventional ways.,O,O4,Adventurousness
+Like to begin new things.,Prefer to stick with things that I know.,O,O4,Adventurousness
+Like to begin new things.,Dislike changes.,O,O4,Adventurousness
+Like to begin new things.,Don't like the idea of change.,O,O4,Adventurousness
+Like to begin new things.,Am a creature of habit.,O,O4,Adventurousness
+Like to begin new things.,Dislike new foods.,O,O4,Adventurousness
+Like to begin new things.,Am attached to conventional ways.,O,O4,Adventurousness
+Like to solve complex problems.,Am not interested in abstract ideas.,O,O5,Intellect
+Like to solve complex problems.,Avoid philosophical discussions.,O,O5,Intellect
+Like to solve complex problems.,Have difficulty understanding abstract ideas.,O,O5,Intellect
+Like to solve complex problems.,Am not interested in theoretical discussions.,O,O5,Intellect
+Like to solve complex problems.,Avoid difficult reading material.,O,O5,Intellect
+Love to read challenging material.,Am not interested in abstract ideas.,O,O5,Intellect
+Love to read challenging material.,Avoid philosophical discussions.,O,O5,Intellect
+Love to read challenging material.,Have difficulty understanding abstract ideas.,O,O5,Intellect
+Love to read challenging material.,Am not interested in theoretical discussions.,O,O5,Intellect
+Love to read challenging material.,Avoid difficult reading material.,O,O5,Intellect
+Have a rich vocabulary.,Am not interested in abstract ideas.,O,O5,Intellect
+Have a rich vocabulary.,Avoid philosophical discussions.,O,O5,Intellect
+Have a rich vocabulary.,Have difficulty understanding abstract ideas.,O,O5,Intellect
+Have a rich vocabulary.,Am not interested in theoretical discussions.,O,O5,Intellect
+Have a rich vocabulary.,Avoid difficult reading material.,O,O5,Intellect
+Can handle a lot of information.,Am not interested in abstract ideas.,O,O5,Intellect
+Can handle a lot of information.,Avoid philosophical discussions.,O,O5,Intellect
+Can handle a lot of information.,Have difficulty understanding abstract ideas.,O,O5,Intellect
+Can handle a lot of information.,Am not interested in theoretical discussions.,O,O5,Intellect
+Can handle a lot of information.,Avoid difficult reading material.,O,O5,Intellect
+Enjoy thinking about things.,Am not interested in abstract ideas.,O,O5,Intellect
+Enjoy thinking about things.,Avoid philosophical discussions.,O,O5,Intellect
+Enjoy thinking about things.,Have difficulty understanding abstract ideas.,O,O5,Intellect
+Enjoy thinking about things.,Am not interested in theoretical discussions.,O,O5,Intellect
+Enjoy thinking about things.,Avoid difficult reading material.,O,O5,Intellect
+Tend to vote for liberal political candidates.,Believe in one true religion.,O,O6,Liberalism
+Tend to vote for liberal political candidates.,Tend to vote for conservative political candidates.,O,O6,Liberalism
+Tend to vote for liberal political candidates.,Believe that too much tax money goes to support artists.,O,O6,Liberalism
+Tend to vote for liberal political candidates.,Believe laws should be strictly enforced.,O,O6,Liberalism
+Tend to vote for liberal political candidates.,Believe that we coddle criminals too much.,O,O6,Liberalism
+Tend to vote for liberal political candidates.,Believe that we should be tough on crime.,O,O6,Liberalism
+Tend to vote for liberal political candidates.,Like to stand during the national anthem.,O,O6,Liberalism
+Believe that there is no absolute right or wrong.,Believe in one true religion.,O,O6,Liberalism
+Believe that there is no absolute right or wrong.,Tend to vote for conservative political candidates.,O,O6,Liberalism
+Believe that there is no absolute right or wrong.,Believe that too much tax money goes to support artists.,O,O6,Liberalism
+Believe that there is no absolute right or wrong.,Believe laws should be strictly enforced.,O,O6,Liberalism
+Believe that there is no absolute right or wrong.,Believe that we coddle criminals too much.,O,O6,Liberalism
+Believe that there is no absolute right or wrong.,Believe that we should be tough on crime.,O,O6,Liberalism
+Believe that there is no absolute right or wrong.,Like to stand during the national anthem.,O,O6,Liberalism
+Believe that criminals should receive help rather than punishment.,Believe in one true religion.,O,O6,Liberalism
+Believe that criminals should receive help rather than punishment.,Tend to vote for conservative political candidates.,O,O6,Liberalism
+Believe that criminals should receive help rather than punishment.,Believe that too much tax money goes to support artists.,O,O6,Liberalism
+Believe that criminals should receive help rather than punishment.,Believe laws should be strictly enforced.,O,O6,Liberalism
+Believe that criminals should receive help rather than punishment.,Believe that we coddle criminals too much.,O,O6,Liberalism
+Believe that criminals should receive help rather than punishment.,Believe that we should be tough on crime.,O,O6,Liberalism
+Believe that criminals should receive help rather than punishment.,Like to stand during the national anthem.,O,O6,Liberalism

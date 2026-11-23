@@ -1,0 +1,9 @@
+sentence-transformers>=2.2
+pandas>=1.5
+numpy>=1.23
+matplotlib>=3.6
+
+# Only needed for `foundations.py --mode empirical` if your response data
+# is a .parquet file (not needed if you're using .csv, and not needed at
+# all for the main embeddings/corrections pipeline above):
+# pyarrow>=10.0
