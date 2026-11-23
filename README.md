@@ -113,6 +113,7 @@ Parquet input requires the optional `pyarrow` package. The script retains respon
 - One sentence-transformer model (`all-mpnet-base-v2`) and one 300-item personality inventory are currently evaluated.
 - The current headline sign-accuracy values are based on a theoretical expected sign for reverse-keyed item pairs, not empirical signs from respondents.
 - The content-aware methods depend on known Big Five domain and facet labels; they are not purely text-only corrections.
+- The nested conditions splice pairwise similarities from multiple representations. Positive semidefiniteness is not guaranteed or currently checked; inspect the matrix eigenvalues before using it with methods that require a valid Gram or correlation matrix.
 - The reported results do not yet establish generalisation to other instruments, item pools, languages, or embedding models.
 - The code documents Pearson correlations for the optional response-based validation. Polychoric correlations may be worth examining for ordinal Likert responses in a later sensitivity analysis.
 - Model selection, parameter sensitivity, and independent validation across instruments remain necessary before making broad claims about psychometric validity.
