@@ -88,7 +88,7 @@ The three resulting similarity matrices are spliced according to the pair's doma
 
 Use the same pair-scope selection as condition 7, but build the three representations on the ZCA / full-rescale base rather than the drop-top base.
 
-The nested methods therefore produce a similarity matrix by combining entries from different representations; they are not equivalent to applying one single corrected embedding matrix to all items and then calculating cosine similarity.
+The nested methods therefore produce a similarity matrix by combining entries from different representations; they are not equivalent to applying one single corrected embedding matrix to all items and then calculating cosine similarity. The pair-scope masks are symmetric, so the assembled matrix remains symmetric, but this construction does **not** guarantee positive semidefiniteness. The current scripts do not test this property. Before using a nested matrix with a downstream method that requires a positive-semidefinite Gram or correlation matrix, inspect its eigenvalues and decide whether a PSD adjustment is justified for that use case.
 
 ## 5. Evaluation metrics
 
@@ -127,6 +127,7 @@ The individual-level response data and the empirical correlation matrix are not 
 - The content-aware methods use known domain and facet labels as part of the correction. They are not unsupervised or purely text-only transformations.
 - The current sign-accuracy evaluation uses a theoretical expected sign. Some reverse-keyed pairs may not be negatively correlated in actual responses because of item wording, response styles, or other substantive factors.
 - A high negative-sign recovery rate on the predefined pair set does not establish recovery of the full psychometric structure.
+- The nested conditions splice pairwise similarities from multiple representations. Positive semidefiniteness is not guaranteed and is not currently checked; this matters for downstream algorithms that require a valid Gram or correlation matrix.
 - The current files do not provide cross-validation across independent item pools, embedding models, or samples.
 - The optional empirical stage is therefore important before treating the correction as a validated psychometric procedure.
 
