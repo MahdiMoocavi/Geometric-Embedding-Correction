@@ -1,12 +1,7 @@
-# Generated embeddings and similarity matrices
+# Recomputable, relatively large numeric artifacts
 embeddings.csv
 similarity_matrix_*.csv
 empirical_correlation_matrix.csv
-
-# Generated comparison tables and plots
-comparison_summary_*.csv
-comparison_plot_*.png
-heatmap_*.png
 
 # Python cache and local environments
 __pycache__/
