@@ -1,0 +1,16 @@
+# Generated embeddings and similarity matrices
+embeddings.csv
+similarity_matrix_*.csv
+empirical_correlation_matrix.csv
+
+# Generated comparison tables and plots
+comparison_summary_*.csv
+comparison_plot_*.png
+heatmap_*.png
+
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
