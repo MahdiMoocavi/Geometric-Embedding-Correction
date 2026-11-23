@@ -1,165 +1,131 @@
 # Geometric Correction of IPIP-NEO-300 Item Embeddings
 
-Do purely geometric corrections to raw sentence embeddings — computed from
-item text alone, no participant response data required — recover the
-correct (negative) relationship between reverse-keyed personality items
-that raw embeddings get wrong?
+Can geometric corrections improve the recovery of expected negative relationships between reverse-keyed personality items in sentence-embedding space?
 
-This repository holds the code and results. The scientific argument itself
-(motivation, related work, full discussion) lives in the accompanying
-report, not here — this file is for finding your way around the code and
-reproducing the results.
+This project encodes the 300 IPIP-NEO-300 item statements with `all-mpnet-base-v2`, computes pairwise cosine similarities, and compares global corrections with methods that use the instrument's known Big Five domain and facet labels. The goal is to test whether the geometry of item-text embeddings can better reflect theoretically expected item relationships before any psychometric network estimation.
 
-## The problem, in one paragraph
+## Research question and rationale
 
-Sentence embeddings blend two things: content specific to an item, and a
-component shared by ~every item in the pool (register, topic, syntax). The
-shared component inflates similarity between any two items regardless of
-content, and it hits reverse-keyed item pairs hardest — e.g. "Get angry
-easily." and "Rarely get irritated.", which should be strongly *negatively*
-related, instead come out positive or neutral in raw embedding space. This
-matters beyond the pair itself: any downstream network-estimation method
-fed a similarity matrix like this has no way to know the sign is wrong.
+Sentence embeddings may capture both item-specific semantics and shared features of questionnaire wording, such as register, syntax, and topic. A shared component can inflate similarity across items, including pairs whose scoring directions are reversed.
 
-## Key result so far
+The project evaluates whether correcting this geometry improves the sign of similarity for reverse-keyed items within the same facet. This is a targeted evaluation of item-pair relationships, not a complete validation of an instrument or a replacement for response-based psychometrics.
 
-Sign-accuracy on a systematic 696-pair reverse-keyed evaluation set (every
-plus-keyed item paired with every minus-keyed item within the same facet,
-derived from the instrument's actual verified keying — not hand-picked):
+## Current embedding-only results
 
-| Condition | Uses facet/domain labels? | Sign-accuracy |
+The repository's current code documentation reports the following results on a systematic set of **696 within-facet reverse-keyed pairs**. Sign-accuracy is the proportion of pairs whose cosine similarity has the expected negative sign under the theoretical reverse-keying assumption.
+
+| Condition | Uses domain/facet labels? | Reported sign-accuracy | Similarity-structure correlation vs. raw |
+|---|---:|---:|---:|
+| Raw embeddings | No | 0.0% | 1.00 |
+| Global mean-centering | No | 27.4% | 0.78 |
+| Drop-top / all-but-the-top | No | 26.7% | 0.68 |
+| ZCA / full-rescale | No | 31.6% | 0.73 |
+| Domain-centering (blanket) | Yes | 42.8% | 0.70 |
+| Facet-centering (blanket) | Yes | 86.5% | 0.53 |
+| Nested drop-top | Yes | 86.2% | 0.59 |
+| **Nested full-rescale** | **Yes** | **90.5%** | **0.59** |
+
+These are the results recorded in the project's source-code documentation; they have not been independently re-run as part of this repository review. The strongest reported sign-recovery result is the nested full-rescale condition. It should not be described as universally best on every metric: for example, domain-centering has a higher reported correlation with the raw similarity structure (0.70), but lower sign-accuracy (42.8%).
+
+**Critical qualification:** this is still an embedding-only evaluation against a theoretical expectation. It does not establish that corrected similarities match real item-response correlations. Validation against response-derived correlations remains a separate, unfinished stage.
+
+## Why there are two method families
+
+The four content-blind conditions use only the embedding geometry. The four content-aware conditions additionally use the item's known domain or facet. These are different method classes and should be compared as such.
+
+| Condition | Method family | Operation |
 |---|---|---|
-| Raw (uncorrected) | No | 0.0% |
-| Mean-centered | No | 27.4% |
-| Drop-top (all-but-the-top) | No | 26.7% |
-| ZCA whitening | No | 31.6% |
-| Domain-centering (blanket) | Yes | 42.8% |
-| Facet-centering (blanket) | Yes | 86.5% |
-| Nested, drop-top base | Yes | 86.2% |
-| **Nested, full-rescale base** | **Yes** | **90.5%** |
+| 1. Raw | Baseline | Uncorrected sentence embeddings |
+| 2. Centered | Content-blind | Subtract the global item-embedding mean |
+| 3. Drop-top | Content-blind | Mean-center, then remove the leading principal-component direction(s) |
+| 4. ZCA / full-rescale | Content-blind | Mean-center, then regularized variance rescaling in the PCA basis |
+| 5. Domain blanket | Content-aware | Center each item on its Big Five domain mean |
+| 6. Facet blanket | Content-aware | Center each item on its facet mean |
+| 7. Nested drop-top | Content-aware | Select the global, domain-centred, or facet-centred similarity according to each pair's scope, using drop-top as the base |
+| 8. Nested full-rescale | Content-aware | The same scope-matched procedure, using ZCA / full-rescale as the base |
 
-Global correction alone caps out under a third correct. Correction that
-uses the item's known facet — even minimally — jumps to the high 80s/low
-90s. The best-performing condition also best preserves the item pool's
-overall similarity structure relative to raw, not just its sign-accuracy.
+The exact operations and evaluation logic are specified in [geometric-correction-methodology.md](geometric-correction-methodology.md).
 
-**Important caveat, controlled for rather than glossed over:** centering
-within a small group (10 items per facet) has a mechanical side effect —
-it mathematically forces that group's residuals toward a floor of about
-−0.11 pairwise similarity, independent of any real content. This was
-caught via a random-noise stress test and is controlled for directly:
-`same_keyed_control_pairs.csv` holds same-facet pairs that feel the
-identical mechanical pull but should genuinely stay positive. The gap
-between reverse-keyed pairs and this control set (+0.06 to +0.12 across
-the facet-informed conditions) is the artifact-controlled evidence for
-real signal — see the docstring in `content_aware_corrections.py` for the
-full derivation and numbers.
+## Evaluation and artifact control
 
-**This is all still the theoretical/embedding-only result.** Validation
-against real response data (145K+ participants, same 300 items) is the
-next stage — see Status below.
+- `reverse_keyed_pairs.csv` contains 696 systematically enumerated within-facet pairs: each plus-keyed item is paired with each minus-keyed item in the same facet.
+- `same_keyed_control_pairs.csv` contains 654 same-facet pairs with the same keying direction. This is included because group-centering can mechanically shift within-group similarities, independent of semantic information.
+- The content-aware script reports the reverse-keyed and same-keyed control means, along with their difference, for each condition. Interpret facet-informed results using this control rather than relying on raw negative-sign recovery alone.
+
+The current implementation reports a group-size reference value of `-1/(k-1)` for a group of size `k` (for ten items, approximately -0.111). Treat this as a theoretical centering reference under the assumptions described in the code, not as a universal expected cosine similarity for arbitrary embedding data.
 
 ## Repository contents
 
-```
-foundations.py                  Item pool, raw embeddings, the full
-                                 correction + evaluation toolbox, and
-                                 empirical-validation utilities.
-                                 RUN THIS FIRST.
-
-content_blind_corrections.py    Conditions that use only embedding
-                                 geometry: raw, mean-centered, drop-top,
-                                 ZCA. Imports its toolbox from
-                                 foundations.py.
-
-content_aware_corrections.py    Conditions that additionally use verified
-                                 facet/domain labels: domain-/facet-
-                                 blanket centering, and two nested
-                                 (scope-matched) corrections. Imports
-                                 shared logic from both files above,
-                                 produces the full 1-8 comparison, and
-                                 runs the artifact-control check.
-
-item_metadata.csv               Domain, facet, and keying direction for
-                                 all 300 items. Verified two independent
-                                 ways against the actual IPIP-NEO-300
-                                 scoring key (a GitHub data mirror and the
-                                 five-factor-e PyPI package) -- zero
-                                 keying mismatches on 299/300 items
-                                 cross-checked.
-
-reverse_keyed_pairs.csv         The 696-pair systematic evaluation set,
-                                 derived directly from the verified keying
-                                 above.
-
-same_keyed_control_pairs.csv    654 same-facet, same-keying-direction
-                                 pairs -- the artifact control for the
-                                 facet-level conditions (see caveat above).
-
-geometric-correction-methodology.md   Full formal specification of every
-                                       correction (the notation the code's
-                                       docstrings match against directly).
-
-bibliography.md                 Full reference list.
-
-requirements.txt                Exact packages needed to run this pipeline.
-```
-
-Running the pipeline also produces (not included until you run it):
-`embeddings.csv`, `similarity_matrix_<condition>.csv` for each of the 8
-conditions, `comparison_summary_*.csv`, and comparison plots.
+| File | Purpose |
+|---|---|
+| `foundations.py` | Canonical 300-item pool, embedding generation, cosine similarity, correction functions, evaluation metrics, and optional empirical-correlation utilities |
+| `content_blind_corrections.py` | Four content-blind conditions and their comparison |
+| `content_aware_corrections.py` | Four content-aware conditions, full eight-condition comparison, and same-keyed artifact control |
+| `item_metadata.csv` | Domain, facet, and keying-direction metadata for the 300 items |
+| `reverse_keyed_pairs.csv` | The 696-pair reverse-keyed evaluation set |
+| `same_keyed_control_pairs.csv` | The 654-pair same-keyed artifact-control set |
+| `requirements.txt` | Python dependencies |
+| `geometric-correction-methodology.md` | Method definitions, evaluation logic, and limitations |
 
 ## Setup
+
+Python 3.10 or later is recommended.
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Running it
+The first embedding run downloads the `all-mpnet-base-v2` model through Sentence Transformers and therefore requires network access. The model produces 768-dimensional sentence embeddings.
+
+## Run the pipeline
+
+Run these commands from the repository directory:
 
 ```bash
-python foundations.py --mode embeddings --plot
+# Step 1: generate and cache raw embeddings and the raw similarity matrix
+python foundations.py --mode embeddings
+
+# Step 2: evaluate the four content-blind conditions
 python content_blind_corrections.py --plot
+
+# Step 3: evaluate all eight conditions and the same-keyed artifact control
 python content_aware_corrections.py --plot
 ```
 
-Each script prints its own results table and saves it as CSV. All three
-read/write plain CSVs in the working directory — no hidden state, and
-nothing is recomputed unnecessarily (`foundations.py` caches embeddings
-and skips re-encoding on repeat runs).
+The foundations script creates its raw similarity heatmap by default. Use `--skip-plot` to suppress it. The two correction scripts accept `--plot` to save their comparison plots.
 
-### Adding the empirical validation
+Generated CSVs and plots are written beside the scripts in the repository directory. Existing embeddings are reused when both `embeddings.csv` and the raw similarity matrix are present; pass `--force` to recompute the embeddings.
 
-The response-data step is deliberately decoupled from everything above —
-run it wherever the actual response data lives, since only the small
-resulting correlation matrix needs to travel, not 145K rows of raw
-responses:
+## Optional empirical validation
+
+The empirical mode computes a Pearson item-response correlation matrix from a CSV or Parquet dataset containing columns `i1` through `i300`:
 
 ```bash
-python foundations.py --mode empirical --input IPIP300-SCORES.parquet
+python foundations.py --mode empirical --input /path/to/IPIP300-SCORES.parquet
 ```
 
-(reading `.parquet` needs `pyarrow` — `pip install pyarrow` if you don't
-already have it; not needed anywhere else in this pipeline.)
+Parquet input requires the optional `pyarrow` package. The script retains respondents with at least 50% non-missing item responses, then computes pairwise Pearson correlations. It writes `empirical_correlation_matrix.csv` beside the scripts. Re-run the two correction scripts after that file is present; they will add comparisons against the empirical pairwise signs.
 
-Copy the resulting `empirical_correlation_matrix.csv` into the same
-directory as everything else, then re-run the two correction scripts —
-both automatically detect the file and add the empirical comparison to
-their output.
+**Item order is essential.** The response columns `i1`–`i300` must correspond exactly to the canonical item order in `ITEM_STEMS` in `foundations.py`. Do not alphabetically sort the column names. The source response data and empirical matrix are not included in this repository; do not commit individual-level response data.
 
-## A note on the item pool
+## Scope and limitations
 
-The 300 items are the standard, public-domain IPIP-NEO-300 inventory
-(Goldberg / Johnson). This was confirmed, not assumed — see
-`geometric-correction-methodology.md` and the docstring in
-`content_aware_corrections.py` for how the facet/domain/keying metadata was
-cross-verified against two independent public sources.
+- One sentence-transformer model (`all-mpnet-base-v2`) and one 300-item personality inventory are currently evaluated.
+- The current headline sign-accuracy values are based on a theoretical expected sign for reverse-keyed item pairs, not empirical signs from respondents.
+- The content-aware methods depend on known Big Five domain and facet labels; they are not purely text-only corrections.
+- The reported results do not yet establish generalisation to other instruments, item pools, languages, or embedding models.
+- The code documents Pearson correlations for the optional response-based validation. Polychoric correlations may be worth examining for ordinal Likert responses in a later sensitivity analysis.
+- Model selection, parameter sensitivity, and independent validation across instruments remain necessary before making broad claims about psychometric validity.
 
 ## Status
 
-- [x] Content-blind corrections (raw, centered, drop-top, ZCA)
-- [x] Content-aware corrections (domain/facet blanket, nested)
+- [x] 300-item IPIP-NEO-300 embedding pipeline
+- [x] Four content-blind correction conditions
+- [x] Four content-aware correction conditions
 - [x] Systematic 696-pair reverse-keyed evaluation set
-- [x] Full 1-8 theoretical comparison
-- [ ] Empirical validation against real response data (in progress)
-- [ ] Written report (in progress)
+- [x] 654-pair same-keyed artifact-control set
+- [x] Eight-condition embedding-only comparison
+- [ ] Empirical validation against response-derived item correlations
+- [ ] Sensitivity analysis across embedding models and correction parameters
+- [ ] Independent validation on additional item pools
+- [ ] Full research report
